@@ -1,0 +1,32 @@
+{
+  "achievements": [
+    {
+      "id": "ach-1",
+      "title": "Led ERP Module Development",
+      "description": "Successfully led the development of critical ERP and HR modules serving enterprise clients",
+      "icon": "trophy",
+      "year": "2025"
+    },
+    {
+      "id": "ach-2",
+      "title": "Performance Optimization",
+      "description": "Improved database query performance by 40% through optimization techniques",
+      "icon": "zap",
+      "year": "2024"
+    },
+    {
+      "id": "ach-3",
+      "title": "Full-Stack Expertise",
+      "description": "Mastered end-to-end development from React frontends to Node.js backends with cloud deployment",
+      "icon": "code",
+      "year": "2024"
+    },
+    {
+      "id": "ach-4",
+      "title": "Academic Excellence",
+      "description": "Graduated M.Com with 8.94 CGPA while building technical expertise",
+      "icon": "award",
+      "year": "2025"
+    }
+  ]
+}

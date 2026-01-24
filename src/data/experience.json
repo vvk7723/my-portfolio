@@ -1,0 +1,55 @@
+{
+  "positions": [
+    {
+      "id": "exp-3",
+      "title": "Full-Stack Developer",
+      "company": "VGD Technologies",
+      "location": "Ahmedabad",
+      "type": "Full-time",
+      "startDate": "May 2025",
+      "endDate": "Present",
+      "current": true,
+      "responsibilities": [
+        "Leading development of ERP & HR modules",
+        "Building React UI with Node.js backend",
+        "Managing Docker containerization & AWS deployments",
+        "Architecting scalable enterprise solutions"
+      ],
+      "technologies": ["React", "Node.js", "Docker", "AWS", "PostgreSQL"]
+    },
+    {
+      "id": "exp-2",
+      "title": "Backend Developer",
+      "company": "VGD Technologies",
+      "location": "Ahmedabad",
+      "type": "Full-time",
+      "startDate": "April 2024",
+      "endDate": "May 2025",
+      "current": false,
+      "responsibilities": [
+        "Developed REST & GraphQL APIs",
+        "Optimized PostgreSQL and MongoDB queries",
+        "Implemented Agile workflows and testing",
+        "Conducted code reviews and mentorship"
+      ],
+      "technologies": ["Node.js", "Express", "GraphQL", "PostgreSQL", "MongoDB"]
+    },
+    {
+      "id": "exp-1",
+      "title": "Jr. Backend Developer",
+      "company": "VGD Technologies",
+      "location": "Ahmedabad",
+      "type": "Full-time",
+      "startDate": "September 2023",
+      "endDate": "April 2024",
+      "current": false,
+      "responsibilities": [
+        "Trained in Node.js & Express.js",
+        "Debugged and fixed production issues",
+        "Collaborated with senior developers",
+        "Gained expertise in backend development"
+      ],
+      "technologies": ["Node.js", "Express", "JavaScript", "Git"]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "degrees": [
+    {
+      "id": "edu-1",
+      "degree": "Master of Commerce",
+      "shortDegree": "M.Com",
+      "institution": "Shree B.P. Brahmbhatt Arts & M.H. Guru Commerce College",
+      "location": "Unjha",
+      "startYear": "2023",
+      "endYear": "2025",
+      "cgpa": "8.94",
+      "description": "Completed Master's degree with strong academic performance while building technical expertise."
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "currentFocus": {
+    "title": "Currently Working On",
+    "items": [
+      {
+        "id": "focus-1",
+        "title": "ERP Module Enhancement",
+        "description": "Leading development of advanced HR and payroll features",
+        "progress": 75,
+        "color": "blue"
+      },
+      {
+        "id": "focus-2",
+        "title": "Cloud Architecture",
+        "description": "Improving AWS infrastructure and deployment pipelines",
+        "progress": 60,
+        "color": "purple"
+      },
+      {
+        "id": "focus-3",
+        "title": "Skills Development",
+        "description": "Deepening expertise in microservices and system design",
+        "progress": 50,
+        "color": "green"
+      }
+    ]
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "categories": [
+    {
+      "id": "frontend",
+      "name": "Frontend",
+      "icon": "monitor",
+      "skills": [
+        { "name": "React.js", "level": 90 },
+        { "name": "Redux", "level": 85 },
+        { "name": "JavaScript (ES6+)", "level": 90 },
+        { "name": "HTML5", "level": 95 },
+        { "name": "CSS3", "level": 90 },
+        { "name": "Tailwind CSS", "level": 88 }
+      ]
+    },
+    {
+      "id": "backend",
+      "name": "Backend",
+      "icon": "server",
+      "skills": [
+        { "name": "Node.js", "level": 88 },
+        { "name": "Express.js", "level": 87 },
+        { "name": "REST APIs", "level": 90 },
+        { "name": "GraphQL", "level": 82 }
+      ]
+    },
+    {
+      "id": "database",
+      "name": "Database",
+      "icon": "database",
+      "skills": [
+        { "name": "PostgreSQL", "level": 85 },
+        { "name": "MongoDB", "level": 83 },
+        { "name": "MySQL", "level": 80 }
+      ]
+    },
+    {
+      "id": "devops",
+      "name": "DevOps & Cloud",
+      "icon": "cloud",
+      "skills": [
+        { "name": "AWS (EC2, S3)", "level": 78 },
+        { "name": "Docker", "level": 80 },
+        { "name": "Git & GitHub", "level": 90 },
+        { "name": "CI/CD", "level": 75 }
+      ]
+    },
+    {
+      "id": "tools",
+      "name": "Tools & Others",
+      "icon": "wrench",
+      "skills": [
+        { "name": "Firebase", "level": 82 },
+        { "name": "Customer.io", "level": 78 },
+        { "name": "Unit Testing", "level": 80 },
+        { "name": "Agile Methodology", "level": 85 }
+      ]
+    }
+  ]
+}

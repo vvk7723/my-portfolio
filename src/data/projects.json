@@ -1,0 +1,72 @@
+{
+  "projects": [
+    {
+      "id": "proj-1",
+      "title": "HRMS",
+      "subtitle": "Internal HR Management System",
+      "description": "A comprehensive enterprise HR solution managing attendance, document management, and employee lifecycle with full ownership of development.",
+      "role": "Full-Stack Developer",
+      "status": "Production",
+      "featured": true,
+      "technologies": ["React", "Node.js", "PostgreSQL", "Docker", "AWS"],
+      "highlights": [
+        "Complete attendance tracking system",
+        "Document management module",
+        "Employee self-service portal",
+        "Admin dashboard with analytics"
+      ],
+      "image": "enterprise technology"
+    },
+    {
+      "id": "proj-2",
+      "title": "Fit2Flaunt",
+      "subtitle": "Global Dance & Fitness Platform",
+      "description": "A global platform connecting dancers and fitness enthusiasts worldwide with events, classes, and community features.",
+      "role": "Frontend Developer",
+      "status": "Live",
+      "featured": true,
+      "technologies": ["React", "Firebase", "Customer.io", "Meta Pixel"],
+      "highlights": [
+        "Firebase Events integration",
+        "Customer.io automation",
+        "Meta Pixel tracking",
+        "Responsive web application"
+      ],
+      "image": "fitness dance"
+    },
+    {
+      "id": "proj-3",
+      "title": "LMC",
+      "subtitle": "Legend Maritime Cargo",
+      "description": "A robust logistics and maritime cargo management system focusing on performance, scalability, and efficient database operations.",
+      "role": "Backend Developer",
+      "status": "Production",
+      "featured": true,
+      "technologies": ["Node.js", "Express", "MongoDB", "REST APIs"],
+      "highlights": [
+        "High-performance APIs",
+        "Scalable database architecture",
+        "Real-time tracking system",
+        "Optimized query performance"
+      ],
+      "image": "cargo logistics"
+    },
+    {
+      "id": "proj-3",
+      "title": "LMC",
+      "subtitle": "Legend Maritime Cargo",
+      "description": "A robust logistics and maritime cargo management system focusing on performance, scalability, and efficient database operations.",
+      "role": "Backend Developer",
+      "status": "Production",
+      "featured": true,
+      "technologies": ["Node.js", "Express", "MongoDB", "REST APIs"],
+      "highlights": [
+        "High-performance APIs",
+        "Scalable database architecture",
+        "Real-time tracking system",
+        "Optimized query performance"
+      ],
+      "image": "cargo logistics"
+    }
+  ]
+}

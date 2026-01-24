@@ -1,0 +1,22 @@
+{
+  "testimonials": [
+    {
+      "id": "test-1",
+      "name": "John Manager",
+      "role": "Senior Tech Lead",
+      "company": "Tech Company",
+      "avatar": "JM",
+      "text": "Vivek is an exceptional developer who consistently delivers high-quality work. His expertise in full-stack development and attention to detail make him a valuable asset to any team.",
+      "rating": 5
+    },
+    {
+      "id": "test-2",
+      "name": "Sarah Director",
+      "role": "Product Director",
+      "company": "Startup Inc",
+      "avatar": "SD",
+      "text": "Working with Vivek has been a great experience. He brings both technical excellence and strong problem-solving skills to every project.",
+      "rating": 5
+    }
+  ]
+}
