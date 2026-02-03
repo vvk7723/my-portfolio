@@ -8,7 +8,13 @@
       "role": "Full-Stack Developer",
       "status": "Production",
       "featured": true,
-      "technologies": ["React", "Node.js", "PostgreSQL", "Docker", "AWS"],
+      "technologies": [
+        "React",
+        "Node.js",
+        "PostgreSQL",
+        "Docker",
+        "AWS"
+      ],
       "highlights": [
         "Complete attendance tracking system",
         "Document management module",
@@ -25,7 +31,12 @@
       "role": "Frontend Developer",
       "status": "Live",
       "featured": true,
-      "technologies": ["React", "Firebase", "Customer.io", "Meta Pixel"],
+      "technologies": [
+        "React",
+        "Firebase",
+        "Customer.io",
+        "Meta Pixel"
+      ],
       "highlights": [
         "Firebase Events integration",
         "Customer.io automation",
@@ -42,24 +53,12 @@
       "role": "Backend Developer",
       "status": "Production",
       "featured": true,
-      "technologies": ["Node.js", "Express", "MongoDB", "REST APIs"],
-      "highlights": [
-        "High-performance APIs",
-        "Scalable database architecture",
-        "Real-time tracking system",
-        "Optimized query performance"
+      "technologies": [
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "REST APIs"
       ],
-      "image": "cargo logistics"
-    },
-    {
-      "id": "proj-3",
-      "title": "LMC",
-      "subtitle": "Legend Maritime Cargo",
-      "description": "A robust logistics and maritime cargo management system focusing on performance, scalability, and efficient database operations.",
-      "role": "Backend Developer",
-      "status": "Production",
-      "featured": true,
-      "technologies": ["Node.js", "Express", "MongoDB", "REST APIs"],
       "highlights": [
         "High-performance APIs",
         "Scalable database architecture",

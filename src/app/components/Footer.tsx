@@ -34,7 +34,12 @@ const Footer: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid md:grid-cols-3 gap-8 mb-8">
           {/* Brand */}
-          <div>
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.5 }}
+          >
             <div className="flex items-center gap-2 mb-4">
               <div className="w-10 h-10 bg-gradient-to-br from-blue-600 to-purple-600 rounded-lg flex items-center justify-center">
                 <span className="text-white font-bold text-lg">VP</span>
@@ -65,10 +70,15 @@ const Footer: React.FC = () => {
                 );
               })}
             </div>
-          </div>
+          </motion.div>
 
           {/* Quick Links */}
-          <div>
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.5, delay: 0.2 }}
+          >
             <h3 className="font-semibold text-gray-800 dark:text-gray-200 mb-4">
               Quick Links
             </h3>
@@ -84,10 +94,15 @@ const Footer: React.FC = () => {
                 </li>
               ))}
             </ul>
-          </div>
+          </motion.div>
 
           {/* Contact */}
-          <div>
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.5, delay: 0.4 }}
+          >
             <h3 className="font-semibold text-gray-800 dark:text-gray-200 mb-4">
               Get in Touch
             </h3>
@@ -96,7 +111,7 @@ const Footer: React.FC = () => {
               <p>{personalInfo.phone}</p>
               <p>{personalInfo.location}</p>
             </div>
-          </div>
+          </motion.div>
         </div>
 
         {/* Bottom Bar */}
@@ -105,9 +120,9 @@ const Footer: React.FC = () => {
             <p className="flex items-center gap-1">
               © {currentYear} {personalInfo.name}. All rights reserved.
             </p>
-            <p className="flex items-center gap-1">
+            {/* <p className="flex items-center gap-1">
               Made with <Heart size={16} className="text-red-500 fill-current" /> using React & Tailwind CSS
-            </p>
+            </p> */}
           </div>
         </div>
       </div>

@@ -52,20 +52,6 @@ const Hero: React.FC = () => {
       {/* Content */}
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
         <div className="text-center">
-          {/* Avatar */}
-          <motion.div
-            initial={{ scale: 0, opacity: 0 }}
-            animate={{ scale: 1, opacity: 1 }}
-            transition={{ duration: 0.5 }}
-            className="mb-8 flex justify-center"
-          >
-            <div className="relative w-32 h-32 rounded-full bg-gradient-to-br from-blue-600 to-purple-600 p-1">
-              <div className="w-full h-full rounded-full bg-gray-200 dark:bg-gray-800 flex items-center justify-center text-4xl font-bold text-gray-700 dark:text-gray-300">
-                {personalInfo.name.split(' ').map(n => n[0]).join('')}
-              </div>
-            </div>
-          </motion.div>
-
           {/* Name & Title */}
           <motion.div
             initial={{ y: 20, opacity: 0 }}
@@ -125,7 +111,8 @@ const Hero: React.FC = () => {
             <motion.a
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              href={personalInfo.resumeUrl}
+              href="/VivekPatel_Resume.pdf"
+              download="VivekPatel_Resume.pdf"
               className="px-8 py-3 bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-300 rounded-lg font-semibold flex items-center gap-2 shadow-lg hover:shadow-xl transition-shadow border border-gray-200 dark:border-gray-700"
             >
               Download Resume
