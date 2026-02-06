@@ -1,15 +1,26 @@
 {
   "degrees": [
     {
-      "id": "edu-1",
+      "id": "edu-2",
       "degree": "Master of Commerce",
       "shortDegree": "M.Com",
       "institution": "Shree B.P. Brahmbhatt Arts & M.H. Guru Commerce College",
       "location": "Unjha",
-      "startYear": "2023",
-      "endYear": "2025",
+      "startYear": "2021",
+      "endYear": "2023",
       "cgpa": "8.94",
-      "description": "Completed Master's degree with strong academic performance while building technical expertise."
+      "description": "Advanced expertise in strategic financial management and corporate governance. Specialized in analyzing complex business environments and applying theoretical knowledge to solve high-level fiscal and managerial challenges."
+    },
+    {
+      "id": "edu-1",
+      "degree": "Bachelor of Commerce",
+      "shortDegree": "B.Com",
+      "institution": "Gokul Global University",
+      "location": "Sidhpur",
+      "startYear": "2018",
+      "endYear": "2021",
+      "cgpa": "7.71",
+      "description": "Developed a robust foundation in financial accounting, taxation, and business law. Focused on building technical proficiency in data analysis and organizational management to drive operational efficiency."
     }
   ]
 }

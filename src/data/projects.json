@@ -6,14 +6,16 @@
       "subtitle": "Internal HR Management System",
       "description": "A comprehensive enterprise HR solution managing attendance, document management, and employee lifecycle with full ownership of development.",
       "role": "Full-Stack Developer",
-      "status": "Production",
+      "status": "Live",
       "featured": true,
       "technologies": [
         "React",
         "Node.js",
-        "PostgreSQL",
+        "MySQL",
         "Docker",
-        "AWS"
+        "AWS",
+        "Redis",
+        "Firebase"
       ],
       "highlights": [
         "Complete attendance tracking system",
@@ -28,11 +30,13 @@
       "title": "Fit2Flaunt",
       "subtitle": "Global Dance & Fitness Platform",
       "description": "A global platform connecting dancers and fitness enthusiasts worldwide with events, classes, and community features.",
-      "role": "Frontend Developer",
+      "role": "Full-Stack Developer",
       "status": "Live",
       "featured": true,
       "technologies": [
         "React",
+        "Node.js",
+        "MySQL",
         "Firebase",
         "Customer.io",
         "Meta Pixel"
@@ -51,14 +55,50 @@
       "subtitle": "Legend Maritime Cargo",
       "description": "A robust logistics and maritime cargo management system focusing on performance, scalability, and efficient database operations.",
       "role": "Backend Developer",
-      "status": "Production",
+      "status": "Live",
       "featured": true,
       "technologies": [
         "Node.js",
         "Express",
-        "MongoDB",
-        "REST APIs"
+        "MySQL",
+        "REST APIs",
+        "Docker",
+        "AWS"
       ],
+      "highlights": [
+        "High-performance APIs",
+        "Scalable database architecture",
+        "Real-time tracking system",
+        "Optimized query performance"
+      ],
+      "image": "cargo logistics"
+    },
+    {
+      "id": "proj-4",
+      "title": "Upad Book",
+      "subtitle": "Management of employees salary and upad",
+      "description": "This is a management system for employees salary and upad. It is a web application that is used to manage the salary of employees and upad. It is a web application that is used to manage the salary of employees and upad.",
+      "role": "Backend Developer",
+      "status": "Live",
+      "featured": true,
+      "technologies": ["Node.js", "Express", "MySQL", "REST APIs"],
+      "highlights": [
+        "High-performance APIs",
+        "Scalable database architecture",
+        "Real-time tracking system",
+        "Optimized query performance"
+      ],
+      "image": "cargo logistics"
+    },
+    {
+      "id": "proj-5",
+      "title": "L-circle",
+      "subtitle": "The furnitures store",
+      "description": "",
+      "role": "Backend Developer",
+      "status": "Live",
+      "featured": true,
+      "technologies": ["Node.js", "Express", "MySQL", "REST APIs"],
       "highlights": [
         "High-performance APIs",
         "Scalable database architecture",
