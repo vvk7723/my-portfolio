@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Moon, Sun, Menu, X } from 'lucide-react';
-import { useTheme } from '@/app/contexts/ThemeContext';
+import { useTheme } from '@/components/providers/ThemeContext';
 import { motion, AnimatePresence } from 'motion/react';
 
 const Header: React.FC = () => {
@@ -38,8 +38,8 @@ const Header: React.FC = () => {
       initial={{ y: -100 }}
       animate={{ y: 0 }}
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled
-          ? 'bg-background/80 backdrop-blur-md shadow-lg border-b border-border'
-          : 'bg-transparent'
+        ? 'bg-background/80 backdrop-blur-md shadow-lg border-b border-border'
+        : 'bg-transparent'
         }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

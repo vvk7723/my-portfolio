@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'motion/react';
 import { Monitor, Server, Database, Cloud, Wrench } from 'lucide-react';
-import skillsData from '@/data/skills.json';
+import skillsData from '@/lib/data/skills.json';
 
 const Skills: React.FC = () => {
   const iconMap: Record<string, React.ElementType> = {

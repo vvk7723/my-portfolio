@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'motion/react';
 import { Briefcase, MapPin, Calendar } from 'lucide-react';
-import experienceData from '@/data/experience.json';
+import experienceData from '@/lib/data/experience.json';
 
 const Experience: React.FC = () => {
   return (
@@ -37,9 +37,8 @@ const Experience: React.FC = () => {
                 whileInView={{ opacity: 1, x: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.5, delay: index * 0.2 }}
-                className={`relative flex items-center ${
-                  index % 2 === 0 ? 'md:flex-row' : 'md:flex-row-reverse'
-                }`}
+                className={`relative flex items-center ${index % 2 === 0 ? 'md:flex-row' : 'md:flex-row-reverse'
+                  }`}
               >
                 {/* Timeline Dot */}
                 <div className="absolute left-8 md:left-1/2 w-4 h-4 bg-gradient-to-br from-blue-500 to-purple-600 rounded-full transform md:-translate-x-1/2 border-4 border-white dark:border-gray-900 z-10" />

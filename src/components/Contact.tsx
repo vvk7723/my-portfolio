@@ -1,8 +1,8 @@
 import React from 'react';
 import { motion } from 'motion/react';
 import { Mail, Phone, MapPin, Send, Linkedin, Github } from 'lucide-react';
-import personalInfo from '@/data/personalInfo.json';
-import socialLinks from '@/data/socialLinks.json';
+import personalInfo from '@/lib/data/personalInfo.json';
+import socialLinks from '@/lib/data/socialLinks.json';
 
 const Contact: React.FC = () => {
   const contactMethods = [

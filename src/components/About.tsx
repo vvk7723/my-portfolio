@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'motion/react';
 import { Code2, Briefcase, Award, Zap } from 'lucide-react';
-import personalInfo from '@/data/personalInfo.json';
+import personalInfo from '@/lib/data/personalInfo.json';
 
 const About: React.FC = () => {
   const stats = [
@@ -44,9 +44,9 @@ const About: React.FC = () => {
                 {personalInfo.summary}
               </p>
               <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
-                My journey in software development has been focused on delivering 
-                high-quality, scalable solutions for enterprise clients. I thrive in 
-                environments where I can leverage my full-stack expertise to build 
+                My journey in software development has been focused on delivering
+                high-quality, scalable solutions for enterprise clients. I thrive in
+                environments where I can leverage my full-stack expertise to build
                 products that make a real impact.
               </p>
             </div>

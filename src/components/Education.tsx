@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'motion/react';
 import { GraduationCap, Award, MapPin, Calendar } from 'lucide-react';
-import educationData from '@/data/education.json';
+import educationData from '@/lib/data/education.json';
 
 const Education: React.FC = () => {
   return (

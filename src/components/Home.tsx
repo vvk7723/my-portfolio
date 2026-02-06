@@ -1,21 +1,21 @@
+"use client";
+
 import React from 'react';
-import { ThemeProvider } from '@/app/contexts/ThemeContext';
-import Header from '@/app/components/Header';
-import Hero from '@/app/components/Hero';
-import About from '@/app/components/About';
-import Stats from '@/app/components/Stats';
-import Skills from '@/app/components/Skills';
-import Experience from '@/app/components/Experience';
-import Projects from '@/app/components/Projects';
-import Education from '@/app/components/Education';
-import Contact from '@/app/components/Contact';
-import Footer from '@/app/components/Footer';
-import ScrollToTop from '@/app/components/ScrollToTop';
-import LoadingScreen from '@/app/components/LoadingScreen';
-import SEOHead from '@/app/components/SEOHead';
+import Header from '@/components/Header';
+import Hero from '@/components/Hero';
+import About from '@/components/About';
+import Stats from '@/components/Stats';
+import Skills from '@/components/Skills';
+import Experience from '@/components/Experience';
+import Projects from '@/components/Projects';
+import Education from '@/components/Education';
+import Contact from '@/components/Contact';
+import Footer from '@/components/Footer';
+import ScrollToTop from '@/components/ScrollToTop';
+import LoadingScreen from '@/components/LoadingScreen';
 import { AnimatePresence } from 'motion/react';
 
-const App: React.FC = () => {
+const Home: React.FC = () => {
   const [isLoading, setIsLoading] = React.useState(true);
 
   React.useEffect(() => {
@@ -26,8 +26,7 @@ const App: React.FC = () => {
   }, []);
 
   return (
-    <ThemeProvider>
-      <SEOHead />
+    <>
       <AnimatePresence mode="wait">
         {isLoading ? (
           <LoadingScreen key="loading" />
@@ -49,8 +48,8 @@ const App: React.FC = () => {
           </div>
         )}
       </AnimatePresence>
-    </ThemeProvider>
+    </>
   );
 };
 
-export default App;
+export default Home;

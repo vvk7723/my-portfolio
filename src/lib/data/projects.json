@@ -8,20 +8,17 @@
       "role": "Full-Stack Developer",
       "status": "Production",
       "featured": true,
-      "technologies": [
-        "React",
-        "Node.js",
-        "PostgreSQL",
-        "Docker",
-        "AWS"
-      ],
+      "technologies": ["React", "Node.js", "PostgreSQL", "Docker", "AWS"],
       "highlights": [
         "Complete attendance tracking system",
         "Document management module",
         "Employee self-service portal",
         "Admin dashboard with analytics"
       ],
-      "image": "enterprise technology"
+      "image": "enterprise technology",
+      "app_id": "com.vgdhrms",
+      "app_store_url": "https://apps.apple.com/us/app/hrms/id6743618475",
+      "play_store_url": "https://play.google.com/store/apps/details?id=com.vgdhrms"
     },
     {
       "id": "proj-2",
@@ -31,19 +28,17 @@
       "role": "Frontend Developer",
       "status": "Live",
       "featured": true,
-      "technologies": [
-        "React",
-        "Firebase",
-        "Customer.io",
-        "Meta Pixel"
-      ],
+      "technologies": ["React", "Firebase", "Customer.io", "Meta Pixel"],
       "highlights": [
         "Firebase Events integration",
         "Customer.io automation",
         "Meta Pixel tracking",
         "Responsive web application"
       ],
-      "image": "fitness dance"
+      "image": "fitness dance",
+      "app_id": "com.cizotech.fit2flaunt",
+      "app_store_url": "https://apps.apple.com/us/app/fit2flaunt/id6743618475",
+      "play_store_url": "https://play.google.com/store/apps/details?id=com.cizotech.fit2flaunt"
     },
     {
       "id": "proj-3",
@@ -53,19 +48,17 @@
       "role": "Backend Developer",
       "status": "Production",
       "featured": true,
-      "technologies": [
-        "Node.js",
-        "Express",
-        "MongoDB",
-        "REST APIs"
-      ],
+      "technologies": ["Node.js", "Express", "MongoDB", "REST APIs"],
       "highlights": [
         "High-performance APIs",
         "Scalable database architecture",
         "Real-time tracking system",
         "Optimized query performance"
       ],
-      "image": "cargo logistics"
+      "image": "cargo logistics",
+      "app_id": "com.cizotech.lmc",
+      "app_store_url": "https://apps.apple.com/us/app/lmc/id6743618475",
+      "play_store_url": "https://play.google.com/store/apps/details?id=com.cizotech.lmc"
     }
   ]
 }

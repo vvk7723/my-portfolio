@@ -1,8 +1,8 @@
 import React from 'react';
 import { ArrowRight, Download, MapPin, Mail, Phone } from 'lucide-react';
 import { motion } from 'motion/react';
-import personalInfo from '@/data/personalInfo.json';
-import socialLinks from '@/data/socialLinks.json';
+import personalInfo from '@/lib/data/personalInfo.json';
+import socialLinks from '@/lib/data/socialLinks.json';
 import { Linkedin, Github, Mail as MailIcon } from 'lucide-react';
 
 const Hero: React.FC = () => {
