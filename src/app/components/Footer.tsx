@@ -108,7 +108,6 @@ const Footer: React.FC = () => {
             </h3>
             <div className="space-y-2 text-sm text-gray-600 dark:text-gray-400">
               <p>{personalInfo.email}</p>
-              <p>{personalInfo.phone}</p>
               <p>{personalInfo.location}</p>
             </div>
           </motion.div>

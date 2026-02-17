@@ -30,7 +30,6 @@ Complete reference for all JSON data files in the portfolio.
   "phone": "+XX XXXXXXXXXX",
   "summary": "Professional summary paragraph",
   "avatar": "profile",
-  "resumeUrl": "link-to-resume",
   "availability": "Availability status"
 }
 ```
@@ -44,7 +43,6 @@ Complete reference for all JSON data files in the portfolio.
 - `phone`: Contact phone number
 - `summary`: 2-3 sentence professional summary
 - `avatar`: Profile image identifier
-- `resumeUrl`: Link to downloadable resume
 - `availability`: Current availability status
 
 **Used In:**

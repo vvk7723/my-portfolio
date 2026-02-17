@@ -86,10 +86,6 @@ const Hero: React.FC = () => {
               <Mail size={16} />
               <span>{personalInfo.email}</span>
             </div>
-            <div className="flex items-center gap-2">
-              <Phone size={16} />
-              <span>{personalInfo.phone}</span>
-            </div>
           </motion.div>
 
           {/* CTA Buttons */}

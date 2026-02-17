@@ -14,13 +14,6 @@ const Contact: React.FC = () => {
       color: 'from-red-500 to-pink-500'
     },
     {
-      icon: Phone,
-      label: 'Phone',
-      value: personalInfo.phone,
-      link: `tel:${personalInfo.phone}`,
-      color: 'from-green-500 to-emerald-500'
-    },
-    {
       icon: MapPin,
       label: 'Location',
       value: personalInfo.location,

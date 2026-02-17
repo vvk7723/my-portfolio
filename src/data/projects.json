@@ -51,18 +51,18 @@
     },
     {
       "id": "proj-3",
-      "title": "LMC",
-      "subtitle": "Legend Maritime Cargo",
-      "description": "A robust logistics and maritime cargo management system focusing on performance, scalability, and efficient database operations.",
-      "role": "Backend Developer",
+      "title": "Patrak",
+      "subtitle": "Banking Report generation system",
+      "description": "A banking report generation system focusing on performance, scalability, and efficient database operations.",
+      "role": "Full-Stack Developer",
       "status": "Live",
       "featured": true,
       "technologies": [
         "Node.js",
         "Express",
         "MySQL",
-        "REST APIs",
-        "Docker",
+        "React",
+        "Redis",
         "AWS"
       ],
       "highlights": [
@@ -75,6 +75,28 @@
     },
     {
       "id": "proj-4",
+      "title": "LMC",
+      "subtitle": "Legend Maritime Cargo",
+      "description": "A robust logistics and maritime cargo management system focusing on performance, scalability, and efficient database operations.",
+      "role": "Backend Developer",
+      "status": "Live",
+      "featured": true,
+      "technologies": [
+        "Node.js",
+        "Express",
+        "MySQL",
+        "REST APIs"
+      ],
+      "highlights": [
+        "High-performance APIs",
+        "Scalable database architecture",
+        "Real-time tracking system",
+        "Optimized query performance"
+      ],
+      "image": "cargo logistics"
+    },
+    {
+      "id": "proj-5",
       "title": "Upad Book",
       "subtitle": "Management of employees salary and upad",
       "description": "This is a management system for employees salary and upad. It is a web application that is used to manage the salary of employees and upad. It is a web application that is used to manage the salary of employees and upad.",
@@ -91,7 +113,7 @@
       "image": "cargo logistics"
     },
     {
-      "id": "proj-5",
+      "id": "proj-6",
       "title": "L-circle",
       "subtitle": "The furnitures store",
       "description": "This is a furniture store website. It is a web application that is used to manage the furniture of the store. It is a web application that is used to manage the furniture of the store.",
